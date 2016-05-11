@@ -1,0 +1,873 @@
+[
+  {
+    "_id": "my arbitrary id1",
+    "item": {
+      "Property 1": 1,
+      "time": "2016-05-10T14:52:29.768Z"
+    },
+    "children": [
+      {
+        "_id": "my arbitrary id2",
+        "item": {
+          "Property 2": 2,
+          "time": "2016-05-10T14:52:29.771Z"
+        },
+        "children": [
+          {
+            "_id": "my arbitrary id3",
+            "item": {
+              "Property 3": 3,
+              "time": "2016-05-10T14:52:29.772Z"
+            },
+            "children": [
+              {
+                "_id": "my arbitrary id4",
+                "item": {
+                  "Property 4": 4,
+                  "time": "2016-05-10T14:52:29.772Z"
+                },
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": "my arbitrary id5",
+    "item": {
+      "Property 5": 5,
+      "time": "2016-05-10T14:52:29.773Z"
+    },
+    "children": [
+      {
+        "_id": "my arbitrary id6",
+        "item": {
+          "Property 6": 6,
+          "time": "2016-05-10T14:52:29.773Z"
+        },
+        "children": [
+          {
+            "_id": "my arbitrary id7",
+            "item": {
+              "Property 7": 7,
+              "time": "2016-05-10T14:52:29.773Z"
+            },
+            "children": [
+              {
+                "_id": "my arbitrary id8",
+                "item": {
+                  "Property 8": 8,
+                  "time": "2016-05-10T14:52:29.774Z"
+                },
+                "children": [
+                  {
+                    "_id": "my arbitrary id9",
+                    "item": {
+                      "Property 9": 9,
+                      "time": "2016-05-10T14:52:29.775Z"
+                    },
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": "my arbitrary id10",
+    "item": {
+      "Property 10": 10,
+      "time": "2016-05-10T14:52:29.778Z"
+    },
+    "children": [
+      {
+        "_id": "my arbitrary id11",
+        "item": {
+          "Property 11": 11,
+          "time": "2016-05-10T14:52:29.778Z"
+        },
+        "children": [
+          {
+            "_id": "my arbitrary id12",
+            "item": {
+              "Property 12": 12,
+              "time": "2016-05-10T14:52:29.779Z"
+            },
+            "children": [
+              {
+                "_id": "my arbitrary id13",
+                "item": {
+                  "Property 13": 13,
+                  "time": "2016-05-10T14:52:29.779Z"
+                },
+                "children": [
+                  {
+                    "_id": "my arbitrary id14",
+                    "item": {
+                      "Property 14": 14,
+                      "time": "2016-05-10T14:52:29.779Z"
+                    },
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": "my arbitrary id15",
+    "item": {
+      "Property 15": 15,
+      "time": "2016-05-10T14:52:29.780Z"
+    },
+    "children": [
+      {
+        "_id": "my arbitrary id16",
+        "item": {
+          "Property 16": 16,
+          "time": "2016-05-10T14:52:29.781Z"
+        },
+        "children": [
+          {
+            "_id": "my arbitrary id17",
+            "item": {
+              "Property 17": 17,
+              "time": "2016-05-10T14:52:29.782Z"
+            },
+            "children": [
+              {
+                "_id": "my arbitrary id18",
+                "item": {
+                  "Property 18": 18,
+                  "time": "2016-05-10T14:52:29.782Z"
+                },
+                "children": [
+                  {
+                    "_id": "my arbitrary id19",
+                    "item": {
+                      "Property 19": 19,
+                      "time": "2016-05-10T14:52:29.782Z"
+                    },
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": "my arbitrary id20",
+    "item": {
+      "Property 20": 20,
+      "time": "2016-05-10T14:52:29.783Z"
+    },
+    "children": [
+      {
+        "_id": "my arbitrary id21",
+        "item": {
+          "Property 21": 21,
+          "time": "2016-05-10T14:52:29.783Z"
+        },
+        "children": [
+          {
+            "_id": "my arbitrary id22",
+            "item": {
+              "Property 22": 22,
+              "time": "2016-05-10T14:52:29.784Z"
+            },
+            "children": [
+              {
+                "_id": "my arbitrary id23",
+                "item": {
+                  "Property 23": 23,
+                  "time": "2016-05-10T14:52:29.785Z"
+                },
+                "children": [
+                  {
+                    "_id": "my arbitrary id24",
+                    "item": {
+                      "Property 24": 24,
+                      "time": "2016-05-10T14:52:29.786Z"
+                    },
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": "my arbitrary id25",
+    "item": {
+      "Property 25": 25,
+      "time": "2016-05-10T14:52:29.786Z"
+    },
+    "children": [
+      {
+        "_id": "my arbitrary id26",
+        "item": {
+          "Property 26": 26,
+          "time": "2016-05-10T14:52:29.786Z"
+        },
+        "children": [
+          {
+            "_id": "my arbitrary id27",
+            "item": {
+              "Property 27": 27,
+              "time": "2016-05-10T14:52:29.787Z"
+            },
+            "children": [
+              {
+                "_id": "my arbitrary id28",
+                "item": {
+                  "Property 28": 28,
+                  "time": "2016-05-10T14:52:29.787Z"
+                },
+                "children": [
+                  {
+                    "_id": "my arbitrary id29",
+                    "item": {
+                      "Property 29": 29,
+                      "time": "2016-05-10T14:52:29.788Z"
+                    },
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": "my arbitrary id30",
+    "item": {
+      "Property 30": 30,
+      "time": "2016-05-10T14:52:29.788Z"
+    },
+    "children": [
+      {
+        "_id": "my arbitrary id31",
+        "item": {
+          "Property 31": 31,
+          "time": "2016-05-10T14:52:29.788Z"
+        },
+        "children": [
+          {
+            "_id": "my arbitrary id32",
+            "item": {
+              "Property 32": 32,
+              "time": "2016-05-10T14:52:29.788Z"
+            },
+            "children": [
+              {
+                "_id": "my arbitrary id33",
+                "item": {
+                  "Property 33": 33,
+                  "time": "2016-05-10T14:52:29.789Z"
+                },
+                "children": [
+                  {
+                    "_id": "my arbitrary id34",
+                    "item": {
+                      "Property 34": 34,
+                      "time": "2016-05-10T14:52:29.789Z"
+                    },
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": "my arbitrary id35",
+    "item": {
+      "Property 35": 35,
+      "time": "2016-05-10T14:52:29.790Z"
+    },
+    "children": [
+      {
+        "_id": "my arbitrary id36",
+        "item": {
+          "Property 36": 36,
+          "time": "2016-05-10T14:52:29.790Z"
+        },
+        "children": [
+          {
+            "_id": "my arbitrary id37",
+            "item": {
+              "Property 37": 37,
+              "time": "2016-05-10T14:52:29.790Z"
+            },
+            "children": [
+              {
+                "_id": "my arbitrary id38",
+                "item": {
+                  "Property 38": 38,
+                  "time": "2016-05-10T14:52:29.790Z"
+                },
+                "children": [
+                  {
+                    "_id": "my arbitrary id39",
+                    "item": {
+                      "Property 39": 39,
+                      "time": "2016-05-10T14:52:29.791Z"
+                    },
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": "my arbitrary id40",
+    "item": {
+      "Property 40": 40,
+      "time": "2016-05-10T14:52:29.791Z"
+    },
+    "children": [
+      {
+        "_id": "my arbitrary id41",
+        "item": {
+          "Property 41": 41,
+          "time": "2016-05-10T14:52:29.791Z"
+        },
+        "children": [
+          {
+            "_id": "my arbitrary id42",
+            "item": {
+              "Property 42": 42,
+              "time": "2016-05-10T14:52:29.791Z"
+            },
+            "children": [
+              {
+                "_id": "my arbitrary id43",
+                "item": {
+                  "Property 43": 43,
+                  "time": "2016-05-10T14:52:29.792Z"
+                },
+                "children": [
+                  {
+                    "_id": "my arbitrary id44",
+                    "item": {
+                      "Property 44": 44,
+                      "time": "2016-05-10T14:52:29.793Z"
+                    },
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": "my arbitrary id45",
+    "item": {
+      "Property 45": 45,
+      "time": "2016-05-10T14:52:29.793Z"
+    },
+    "children": [
+      {
+        "_id": "my arbitrary id46",
+        "item": {
+          "Property 46": 46,
+          "time": "2016-05-10T14:52:29.793Z"
+        },
+        "children": [
+          {
+            "_id": "my arbitrary id47",
+            "item": {
+              "Property 47": 47,
+              "time": "2016-05-10T14:52:29.794Z"
+            },
+            "children": [
+              {
+                "_id": "my arbitrary id48",
+                "item": {
+                  "Property 48": 48,
+                  "time": "2016-05-10T14:52:29.794Z"
+                },
+                "children": [
+                  {
+                    "_id": "my arbitrary id49",
+                    "item": {
+                      "Property 49": 49,
+                      "time": "2016-05-10T14:52:29.794Z"
+                    },
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": "my arbitrary id50",
+    "item": {
+      "Property 50": 50,
+      "time": "2016-05-10T14:52:29.795Z"
+    },
+    "children": [
+      {
+        "_id": "my arbitrary id51",
+        "item": {
+          "Property 51": 51,
+          "time": "2016-05-10T14:52:29.795Z"
+        },
+        "children": [
+          {
+            "_id": "my arbitrary id52",
+            "item": {
+              "Property 52": 52,
+              "time": "2016-05-10T14:52:29.795Z"
+            },
+            "children": [
+              {
+                "_id": "my arbitrary id53",
+                "item": {
+                  "Property 53": 53,
+                  "time": "2016-05-10T14:52:29.796Z"
+                },
+                "children": [
+                  {
+                    "_id": "my arbitrary id54",
+                    "item": {
+                      "Property 54": 54,
+                      "time": "2016-05-10T14:52:29.796Z"
+                    },
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": "my arbitrary id55",
+    "item": {
+      "Property 55": 55,
+      "time": "2016-05-10T14:52:29.796Z"
+    },
+    "children": [
+      {
+        "_id": "my arbitrary id56",
+        "item": {
+          "Property 56": 56,
+          "time": "2016-05-10T14:52:29.796Z"
+        },
+        "children": [
+          {
+            "_id": "my arbitrary id57",
+            "item": {
+              "Property 57": 57,
+              "time": "2016-05-10T14:52:29.796Z"
+            },
+            "children": [
+              {
+                "_id": "my arbitrary id58",
+                "item": {
+                  "Property 58": 58,
+                  "time": "2016-05-10T14:52:29.797Z"
+                },
+                "children": [
+                  {
+                    "_id": "my arbitrary id59",
+                    "item": {
+                      "Property 59": 59,
+                      "time": "2016-05-10T14:52:29.797Z"
+                    },
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": "my arbitrary id60",
+    "item": {
+      "Property 60": 60,
+      "time": "2016-05-10T14:52:29.797Z"
+    },
+    "children": [
+      {
+        "_id": "my arbitrary id61",
+        "item": {
+          "Property 61": 61,
+          "time": "2016-05-10T14:52:29.798Z"
+        },
+        "children": [
+          {
+            "_id": "my arbitrary id62",
+            "item": {
+              "Property 62": 62,
+              "time": "2016-05-10T14:52:29.798Z"
+            },
+            "children": [
+              {
+                "_id": "my arbitrary id63",
+                "item": {
+                  "Property 63": 63,
+                  "time": "2016-05-10T14:52:29.798Z"
+                },
+                "children": [
+                  {
+                    "_id": "my arbitrary id64",
+                    "item": {
+                      "Property 64": 64,
+                      "time": "2016-05-10T14:52:29.799Z"
+                    },
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": "my arbitrary id65",
+    "item": {
+      "Property 65": 65,
+      "time": "2016-05-10T14:52:29.799Z"
+    },
+    "children": [
+      {
+        "_id": "my arbitrary id66",
+        "item": {
+          "Property 66": 66,
+          "time": "2016-05-10T14:52:29.800Z"
+        },
+        "children": [
+          {
+            "_id": "my arbitrary id67",
+            "item": {
+              "Property 67": 67,
+              "time": "2016-05-10T14:52:29.801Z"
+            },
+            "children": [
+              {
+                "_id": "my arbitrary id68",
+                "item": {
+                  "Property 68": 68,
+                  "time": "2016-05-10T14:52:29.801Z"
+                },
+                "children": [
+                  {
+                    "_id": "my arbitrary id69",
+                    "item": {
+                      "Property 69": 69,
+                      "time": "2016-05-10T14:52:29.801Z"
+                    },
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": "my arbitrary id70",
+    "item": {
+      "Property 70": 70,
+      "time": "2016-05-10T14:52:29.802Z"
+    },
+    "children": [
+      {
+        "_id": "my arbitrary id71",
+        "item": {
+          "Property 71": 71,
+          "time": "2016-05-10T14:52:29.802Z"
+        },
+        "children": [
+          {
+            "_id": "my arbitrary id72",
+            "item": {
+              "Property 72": 72,
+              "time": "2016-05-10T14:52:29.802Z"
+            },
+            "children": [
+              {
+                "_id": "my arbitrary id73",
+                "item": {
+                  "Property 73": 73,
+                  "time": "2016-05-10T14:52:29.802Z"
+                },
+                "children": [
+                  {
+                    "_id": "my arbitrary id74",
+                    "item": {
+                      "Property 74": 74,
+                      "time": "2016-05-10T14:52:29.802Z"
+                    },
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": "my arbitrary id75",
+    "item": {
+      "Property 75": 75,
+      "time": "2016-05-10T14:52:29.803Z"
+    },
+    "children": [
+      {
+        "_id": "my arbitrary id76",
+        "item": {
+          "Property 76": 76,
+          "time": "2016-05-10T14:52:29.803Z"
+        },
+        "children": [
+          {
+            "_id": "my arbitrary id77",
+            "item": {
+              "Property 77": 77,
+              "time": "2016-05-10T14:52:29.803Z"
+            },
+            "children": [
+              {
+                "_id": "my arbitrary id78",
+                "item": {
+                  "Property 78": 78,
+                  "time": "2016-05-10T14:52:29.804Z"
+                },
+                "children": [
+                  {
+                    "_id": "my arbitrary id79",
+                    "item": {
+                      "Property 79": 79,
+                      "time": "2016-05-10T14:52:29.804Z"
+                    },
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": "my arbitrary id80",
+    "item": {
+      "Property 80": 80,
+      "time": "2016-05-10T14:52:29.804Z"
+    },
+    "children": [
+      {
+        "_id": "my arbitrary id81",
+        "item": {
+          "Property 81": 81,
+          "time": "2016-05-10T14:52:29.805Z"
+        },
+        "children": [
+          {
+            "_id": "my arbitrary id82",
+            "item": {
+              "Property 82": 82,
+              "time": "2016-05-10T14:52:29.805Z"
+            },
+            "children": [
+              {
+                "_id": "my arbitrary id83",
+                "item": {
+                  "Property 83": 83,
+                  "time": "2016-05-10T14:52:29.805Z"
+                },
+                "children": [
+                  {
+                    "_id": "my arbitrary id84",
+                    "item": {
+                      "Property 84": 84,
+                      "time": "2016-05-10T14:52:29.805Z"
+                    },
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": "my arbitrary id85",
+    "item": {
+      "Property 85": 85,
+      "time": "2016-05-10T14:52:29.806Z"
+    },
+    "children": [
+      {
+        "_id": "my arbitrary id86",
+        "item": {
+          "Property 86": 86,
+          "time": "2016-05-10T14:52:29.806Z"
+        },
+        "children": [
+          {
+            "_id": "my arbitrary id87",
+            "item": {
+              "Property 87": 87,
+              "time": "2016-05-10T14:52:29.806Z"
+            },
+            "children": [
+              {
+                "_id": "my arbitrary id88",
+                "item": {
+                  "Property 88": 88,
+                  "time": "2016-05-10T14:52:29.809Z"
+                },
+                "children": [
+                  {
+                    "_id": "my arbitrary id89",
+                    "item": {
+                      "Property 89": 89,
+                      "time": "2016-05-10T14:52:29.809Z"
+                    },
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": "my arbitrary id90",
+    "item": {
+      "Property 90": 90,
+      "time": "2016-05-10T14:52:29.809Z"
+    },
+    "children": [
+      {
+        "_id": "my arbitrary id91",
+        "item": {
+          "Property 91": 91,
+          "time": "2016-05-10T14:52:29.810Z"
+        },
+        "children": [
+          {
+            "_id": "my arbitrary id92",
+            "item": {
+              "Property 92": 92,
+              "time": "2016-05-10T14:52:29.810Z"
+            },
+            "children": [
+              {
+                "_id": "my arbitrary id93",
+                "item": {
+                  "Property 93": 93,
+                  "time": "2016-05-10T14:52:29.811Z"
+                },
+                "children": [
+                  {
+                    "_id": "my arbitrary id94",
+                    "item": {
+                      "Property 94": 94,
+                      "time": "2016-05-10T14:52:29.811Z"
+                    },
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": "my arbitrary id95",
+    "item": {
+      "Property 95": 95,
+      "time": "2016-05-10T14:52:29.812Z"
+    },
+    "children": [
+      {
+        "_id": "my arbitrary id96",
+        "item": {
+          "Property 96": 96,
+          "time": "2016-05-10T14:52:29.812Z"
+        },
+        "children": [
+          {
+            "_id": "my arbitrary id97",
+            "item": {
+              "Property 97": 97,
+              "time": "2016-05-10T14:52:29.812Z"
+            },
+            "children": [
+              {
+                "_id": "my arbitrary id98",
+                "item": {
+                  "Property 98": 98,
+                  "time": "2016-05-10T14:52:29.813Z"
+                },
+                "children": [
+                  {
+                    "_id": "my arbitrary id99",
+                    "item": {
+                      "Property 99": 99,
+                      "time": "2016-05-10T14:52:29.813Z"
+                    },
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
