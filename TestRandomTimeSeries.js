@@ -5,7 +5,7 @@ var _ = require('lodash');
 var RandomTimeSeries = require('./RandomTimeSeries')
 
 var timeSeriesPackage = new RandomTimeSeries({name:'ts'})
-var dd = new Date()
+
 timeSeriesPackage.emitter.on('Connected to database', function(a) {
     console.log (' uri: ', a)
     var date1 = new Date('2010-12-10T19:15:00.000Z')
