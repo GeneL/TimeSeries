@@ -1,4 +1,8 @@
 {
-  "name": "application-name",
-  "version": "0.0.1"
+  "name": "MongoDBClients",
+  "version": "0.0.1",
+  "devDependencies": {
+    "lodash": "^4.12",
+    "mongoDB": "^3.2"
+  }
 }
