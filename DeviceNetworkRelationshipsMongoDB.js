@@ -13,9 +13,6 @@ var uri = 'mongodb://localhost:27017/analytics';
 var EventEmitter = require('events').EventEmitter;
 var emitter = new EventEmitter();
 
-//var dataBaseDirectory = './db'
-
-//var db = new Engine.Db(dataBaseDirectory, {});
 var itemsDataBase;
 var topologyDataBase;
 var rootId = 'root1';
@@ -33,28 +30,25 @@ function createNewRoot(timeIn, callback) {
         //parantId: 'root',
         children: []
     }
-    if (topologyDataBase.isCapped()) {
-        topologyDataBase.save(rootElement
-            //, {w: 1}
-            , function (err, elem1) {
-                callback(rootElement)
-            })
-    } else {
-        topologyDataBase.insert(rootElement
-            //, {w: 1}
-            , function (err, elem1) {
-                callback(rootElement)
-            })
-    }
-    itemsDataBase.insert({
-            _id: rootId,
-            timeWritten: new Date(),
-            //item: {info: 'this is root'},
-            item: {info: 'this is root'}
+
+    topologyDataBase.insert(rootElement
+        //, {w: 1}
+        , function (err, elem1) {
+            itemsDataBase.insert({
+                    _id: rootId,
+                    timeWritten: new Date(),
+                    //item: {info: 'this is root'},
+                    item: {info: 'this is root'}
+                }
+                , {w: 1}
+                , function (err, elem2) {
+                    callback(rootElement)
+                })
+
         }
-        , {w: 1}
-        , function (err, elem2) {
-        })
+    )
+
+
 }
 
 
@@ -77,9 +71,9 @@ function DeviceNetworkRelationships(options) {
                 //     size: 64 * 64 * 64,
                 //     max: 5000
                 // })
-               // topologyDataBase.isCapped(function(cc) {
-               //     console.log(' is capped: ', cc)
-               //  })
+                // topologyDataBase.isCapped(function(cc) {
+                //     console.log(' is capped: ', cc)
+                //  })
                 //createCollections()
                 emitter.emit('Connected to database', uri)
                 // if (options.create){
@@ -209,6 +203,7 @@ function formatRelationship(timeIn, callback) {
             //console.log(' doc: ', doc)
             topologySearchProduct.push(doc)
         }
+
         callback(_.find(topologySearchProduct, {_id: rootId}).children)
     }
 
@@ -231,6 +226,7 @@ function formatRelationship(timeIn, callback) {
         })
         topologyCursor.on('end', function () {
             getDictionary(topologyRes, function (dct) {
+                db.close()
                 buildTree(dct, topologyRes, function (topologySearchProduct) {
                     //console.log(' topologySearchProduct: ', JSON.stringify(topologySearchProduct, null, '\t'))
                 })

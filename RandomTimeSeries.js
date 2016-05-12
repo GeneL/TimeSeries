@@ -74,6 +74,7 @@ function findItemsByStartEndTime(start, end, callback) {
         itemsList.push(a)
     })
     cr.on('end', function () {
+        //db.close()
         callback(itemsList)
     })
     //return recs
@@ -81,7 +82,7 @@ function findItemsByStartEndTime(start, end, callback) {
 /*
  Store an item in a database. This item can be any object. The callback indicates that the transaction is completed
  */
-function storeItemByTime(itemIn, timeIn, deviceId) {
+function storeItemByTime(itemIn, timeIn, deviceId, callback) {
     //console.log('Insering: ', deviceId)
     itemsDataBase.insert(
         {
@@ -90,9 +91,18 @@ function storeItemByTime(itemIn, timeIn, deviceId) {
             //active: true,
             time: timeIn,
             lastUpdated: new Date()
-        }
-        //, {upsert: true}
-    )
+        }, function (err1, itm1) {
+            //console.log(' foind: ', itm1)
+            if (err1) {
+                console.log(' found error: ', err1);
+                callback(err1)
+            }
+            if (itm1) {
+                //console.log(' found: ', itm1);
+                callback(itm1)
+            }
+        })
+       //, {upsert: true}
 }
 
 

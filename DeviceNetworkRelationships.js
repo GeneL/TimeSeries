@@ -217,7 +217,7 @@ function formatRelationship(callback) {
         topologyCursor.on('end', function () {
             getDictionary(topologyRes, function (dct) {
                 buildTree( dct, topologyRes, function(topologySearchProduct){
-                   
+                   //db.close()
                     callback(topologySearchProduct)
                 })
             })

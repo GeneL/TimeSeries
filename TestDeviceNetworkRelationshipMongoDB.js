@@ -4,9 +4,9 @@
 var _ = require('lodash');
 var DeviceNetworkRelationships = require('./DeviceNetworkRelationshipsMongoDB')
 
-var count = 100
-var start = 1
-var numOfChildren = 50
+var count = 18
+var start = 0
+var numOfChildren = 3
 
 var dn = new DeviceNetworkRelationships({items: 'items', topology: 'topology'});
 
@@ -40,11 +40,3 @@ dn.emitter.on('Connected to database', function (uriOut) {
     })
 
 })
-
-
-
-//    })
-//})
-
-
-
